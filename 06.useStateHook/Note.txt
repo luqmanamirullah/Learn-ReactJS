@@ -1,0 +1,6 @@
+useState Hook in ReactJS 2022
+
+>> What's React useState?
+    useState is special function from react that function to encapsulate local state in a functional component like getter and setter in class component
+
+    this will work when we want to change a data or value using certain event or other hooks in state

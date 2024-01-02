@@ -1,0 +1,15 @@
+Introduce Compnents and JSX, ReactJS 2022
+
+>> What's JSX?
+	JSX is JavaScript Extended which serves to shorten programmers to emmbed html syntax in javascript object
+
+	Function of JSX:
+	1. JSX can make it easier for us to embed the html syntax
+	2. JSX can embed the function in javascript syntax to html syntax very easier
+
+	Note!!!:
+	-JSX cannot  render objects directly in html syntax
+	-JSX cannot render a boolean status directly
+
+	How to Solve: 
+	you have yo make it first into a variable in the javascript sytacm then you can embed it into the html. If there are many vakues in an oobject you must define then one by one

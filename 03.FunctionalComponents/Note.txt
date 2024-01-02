@@ -1,0 +1,5 @@
+Functional Components ReactJS 2022
+
+>> What's Functional Components
+    A functioanl component is a function that is made into a simple component or language made in a special file, usually a semanntic file, so that it can be used several times without rewriting the code again. We only need to call the function by importing it into the main file or the file that needs the function
+

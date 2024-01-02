@@ -1,0 +1,19 @@
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-number{
+    width: 100vw;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.control-number > button {
+    padding: 5px;
+}
+

@@ -1,0 +1,66 @@
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    width: 90vw;
+    list-style: none;
+    padding: 0 0.25rem 0.25rem;
+}
+
+ul li::before{
+    content:"\200B";
+}
+
+.item {
+    widht: 100%;
+    display: flex;
+    justify-conten: space-between;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: 5rem;
+    background: #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 11px 11px 60px #bebebe,
+                -11px 11px 20px #ffff;
+}
+
+.item:first-child{
+    margin: 4rem ;
+}
+
+.item input[type="checkbox"]{
+    text-align: center;
+    width: 1.5rem;
+    min-width: 20px;
+    height: 1.5rem;
+    min-height: 20px;
+    cursor: pointer;
+}
+
+.item input[type="checkbox"]:focus + label {
+    text-decoration: underline;
+}
+
+.item > label {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.75rem;
+    font-grow: 1;
+}
+
+.item svg {
+    margin-right: 15px;
+    font-size: 1rem;
+    color: steelblue;
+}
+
+.item svg:focus, .item svg:hover {
+    color: red;
+    outline: none;
+    scale: 1.2;
+}

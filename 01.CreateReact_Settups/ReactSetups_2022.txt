@@ -1,0 +1,9 @@
+Create React App 2022:
+npx create-react-app namedir
+
+Settups ReactJS 2022:
+
+1.NodeJS
+2.React Developer Tools (Chrome Extensions)
+3.ES7+ React/Redux/React-Native snippets (VS Code Extension)
+4.Emmet: Include Languages (Vs Code Settings)

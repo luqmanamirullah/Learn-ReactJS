@@ -1,0 +1,8 @@
+Props and Props Drilling
+
+>> What is Props and Props Drilling?
+    Meaning of Props:
+    Props is a data models that have a function for save the data and throw the data between component if there is a data change in state
+
+    Meaning of Props Drilling:
+    Props Drilling are situation when the data is being sent at almost every level of component due to requirements in the final level of component 

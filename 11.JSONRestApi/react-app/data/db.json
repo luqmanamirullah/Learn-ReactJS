@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "Done the react video tutorials"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "Done the git video tutorials"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "Done the NextJS video tutorials"
+    }
+  ]
+}

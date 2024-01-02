@@ -1,0 +1,26 @@
+JSON Rest API
+
+>> What is API?
+    API is link between two or more computer programs to interact with each other
+
+>> What is JSON REST API
+    REST stand for Representational State Transfer is a API arcitecture that imposes conditions on how api works
+
+>> The Content of JSON REST API request 
+    1. URL identification
+        Contains a path leading to the resource
+    2. Method
+        a.Get
+            to access the resources contained in the url that has been specified in teh indetification URL
+        b.POST
+            to send data to server 
+        c.PUT
+            to modifying resource where the client sends data tha updates the entire rosource
+        d.PATCH
+            to modifying the resource where the client send a partial data that is to be updated withour modifying the entire data
+        e.DELETE
+            to delete a resource
+    3.Header
+        Header serves as exchenge of metadata between clients and server,  example: request/response format, content-type, request status etc.
+    4.Body 
+        Body contains a file json

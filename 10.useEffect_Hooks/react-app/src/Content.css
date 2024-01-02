@@ -1,0 +1,50 @@
+ul {
+    width: 100%;
+    list-style: none;
+}
+.list {
+    margin-left: 20%;
+    margin-right: 20%;
+    display:  flex;
+    justify-content: space-between;
+}
+
+.list svg:hover, .list svg:focus {
+    scale: 1.2;
+    color: red;
+    outline: none;
+}
+
+.addItem-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.addItem {
+    display: flex;
+}
+
+.addItem input{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.addItem svg:hover, .addItem svg:focus {
+    cursor: pointer;
+    color: green;
+}
+
+.btn-submit{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.search{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}

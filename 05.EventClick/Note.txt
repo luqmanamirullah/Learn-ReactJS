@@ -1,0 +1,4 @@
+Event Click ReactJS 2022
+
+>> What's event click?
+    event click is a function that we created to tell the  computer to do something according to the function we created
